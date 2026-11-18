@@ -46,3 +46,6 @@ yarn-error.*
 .vscode/
 .idea/
 *workspace
+
+# docs
+docs/

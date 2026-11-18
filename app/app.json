@@ -1,0 +1,70 @@
+﻿{
+  "expo": {
+    "name": "LiveTemp",
+    "slug": "livetemp-slug",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.livetemp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "backendUrl": "http://10.41.29.125:5002",
+      "mqtt": {
+        "brokerUrl": "wss://broker.hivemq.com:8884/mqtt",
+        "topic": "ppb/kel04/iot/temperature"
+      },
+      "group": {
+        "number": 4,
+        "name": "Kelompok 4",
+        "course": "Pemrograman Perangkat Bergerak",
+        "class": "PPB — Kelas A",
+        "project": "LiveTemp — Monitoring Suhu Real-time dengan MQTT & Neon",
+        "members": [
+          {
+            "name": "Muhammad Khiesichella Putra Yudanto",
+            "nim": "21120124140122"
+          },
+          {
+            "name": "Thufail Bima Putra Raditya",
+            "nim": "21120124130049"
+          },
+          {
+            "name": "Yosia Mario Hematang",
+            "nim": "21120124130085"
+          },
+          {
+            "name": "Alul Fahmi Akbar",
+            "nim": "21120124140114"
+          }
+        ]
+      }
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F8F9FB",
+          "image": "./assets/splash-mark.png",
+          "imageWidth": 180,
+          "resizeMode": "contain"
+        }
+      ]
+    ]
+  }
+}
